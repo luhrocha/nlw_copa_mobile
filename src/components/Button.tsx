@@ -11,7 +11,7 @@ export function Button({title,type, ...props}: ButtonProps){
             w={'full'}
             h={14}
             rounded="sm"
-            fontFamily="md"
+            fontSize="md"
             textTransform="uppercase"
             bg={type === "SECONDARY" ? 'red.500' : 'yellow.500'}
             _pressed={{
